@@ -21,7 +21,7 @@ impl Screen {
       .video()
       .unwrap()
       .window(
-        "Game of Life",
+        "Snake",
         (cols * scale).try_into().unwrap(),
         (rows * scale).try_into().unwrap()
       ).position_centered()
